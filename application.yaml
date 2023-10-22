@@ -1,10 +1,10 @@
 spring:
     datasource: 
-        url: jdbc:mysql://wghp5.wghservers.com/lynxng12_testDB
-        username: lynxng12_testuser
-        password: test password
+        url: '{cipher}b7e14aa7f4f34b7b9bae6a33c1a760fcc0e366b678df42a63b3a6fae6233bb6375e50f0e30531f8c7eabdd5b953531614b5a844fcb2729c612950fc4c6415d3bc08c510470a0a4a3b79de62f86682829'
+        username: '{cipher}a41f4833fb17ab3ee66b2b0f5ee56d0c3366834ed7f9cb0849ed98cce3f85fcaff3b54b591b901def468cb00f2c394b6'
+        password: '{cipher}2c56bbe2ce313d6632af462513a2f867c1ffa44915aa6037a978ffae52fa4110'
     jpa:
-        database-platform: org.hibernate.dialect.MySQL8Dialect
+        database-platform: '{cipher}071c2579a024e7d75c276c6c9b7a050c244e720646fbb9e4db71bbb242fb8df70f680776feeb3ce61f4af04521c075a1ffdfdbb6f6b41bf7f0dbc63fcf7faf56'
         hibernate:
             ddl-auto: update
         properties:
