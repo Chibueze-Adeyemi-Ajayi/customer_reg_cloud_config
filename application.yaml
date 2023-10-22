@@ -11,3 +11,8 @@ spring:
             hibernate:
                 format_sql: true
         show-sql: true
+application:
+    data:
+        dev: Ajayi Chibueze Adeyemi
+        company: Jilo Innovations
+        version: "1.0.0"
