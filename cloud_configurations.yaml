@@ -1,0 +1,16 @@
+spring:
+    datasource: 
+        url: jdbc:mysql://wghp5.wghservers.com/lynxng12_testDB
+        username: lynxng12_testuser
+        password: test password
+    jpa:
+        database-platform: org.hibernate.dialect.MySQL8Dialect
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                format_sql: true
+        show-sql: true
+
+server:
+    port: 8000
